@@ -10,6 +10,6 @@ class AppTest {
     @Test
     void appSuma() {
         App classUnderTest = new App();
-        assertEquals(5, classUnderTest.sumar(2, 3));
+        assertEquals(5, classUnderTest.sumar(5, 3));
     }
 }
