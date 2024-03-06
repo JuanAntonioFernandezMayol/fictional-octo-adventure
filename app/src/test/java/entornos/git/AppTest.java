@@ -8,8 +8,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
     @Test
-    void appHasAGreeting() {
+    void appSuma() {
         App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "aa");
+        assertEquals(5, classUnderTest.sumar(2, 3));
+    }
+
+    @Test
+    void appResta() {
+        App classUnderTest = new App();
+        assertEquals(1, classUnderTest.resta(5, 4));
     }
 }

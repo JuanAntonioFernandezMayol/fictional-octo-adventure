@@ -13,6 +13,11 @@ public class App {
         return sm;
     }
 
+    public int resta(int n1, int n2) {
+        int rt = n1 - n2;
+        return rt;
+    }
+
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
     }
