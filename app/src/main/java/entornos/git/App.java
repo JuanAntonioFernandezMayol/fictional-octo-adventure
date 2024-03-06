@@ -8,6 +8,11 @@ public class App {
         return "Hello World!";
     }
 
+    public int sumar(int n1, int n2) {
+        int sm = n1 + n2;
+        return sm;
+    }
+
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
     }
